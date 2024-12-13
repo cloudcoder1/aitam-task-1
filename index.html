@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+        }
+        section h2{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            margin: 10px;
+            text-align: center;
+        }
+        section p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+         }
+         form{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+         }
+         input{
+            border-radius:7px;
+            padding: 8px;
+         }
+         input[type=text]:focus{
+            background-color: rgb(175, 238, 238);
+            color: black;
+         }
+         input[type=email]:focus{
+            background-color: rgb(175, 238, 238);
+         }
+         input[type=number]:focus{
+            background-color: rgb(175, 238, 238);
+         }
+        .back{
+            background-image: url("pink2.jpg");
+            background-size: cover;
+        }
+         
+         header{
+            border-radius: 30px;
+         }
+         .button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+img{
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body class="back">
+    <div>
+    <div>
+        <header>
+        <img src="dance.jpg" width="700px">
+        </header>
+        <section>
+            <h2>Dance Registration</h2>
+            <p style="text-align: center;">Fill the registration form below to enter the dancing competition.</p>
+        </section>
+        </div><br>
+        <br>
+        <div class="black">
+            <form>
+                <label><strong>First Name:</strong></label><br><br>
+                <input type="text" placeholder="Enter your First name"><br><br>
+                <label>Last Name:</label><br><br>
+                <input type="text" placeholder="Enter your Last name"><br><br>
+                <label>E-mail:</label><br><br>
+                <input type="email" placeholder="ex:myname@example.com"><br><br>
+                <label>Mobile No:</label><br><br>
+                <input type="text" placeholder="(000)000-000"><br><br>
+                <label>Gender:</label><br><br>
+                <input type="radio" name="gender">Male<br><br>
+                <input type="radio" name="gender">Female<br><br>
+                <label>Street Address</label><br><br>
+                <input type="text" placeholder="Enter Address">
+                <p>Street address line 2</p>
+                <input type="text" placeholder="Enter Address Line">
+                <p>City</p>
+                <input type="text" placeholder="Enter your City">
+                <p>State</p>
+                <input type="text" placeholder="Enter Your State">
+                <p>PIN Code</p>
+                <input type="number" placeholder="Enter yor PIN"><br><br>
+                
+                <label>Type of Dance:</label><br><br>
+                <input type="radio" name="dance">Salsa<br><br>
+                <input type="radio" name="dance">Bachata<br><br>
+                <input type="radio" name="dance">Hip Hop<br><br>
+                <input type="radio" name="dance">kuchipudi<br><br>
+                <input type="radio" name="dance">Bharatha Natyam<br><br>
+                <input type="radio" name="dance">Other<br><br><br>
+                <label>Start Day & Time:</label><br><br>
+                <input type="date">
+                <input type="time"><br><br><br>
+                <label>Comments:</label><br><br>
+                <textarea rows="6" cols="30">
+
+                </textarea><br><br>
+                <button class="button-29">Submit</button>
+            </form>
+        </div>
+        </div>
+</body>
+</html>
